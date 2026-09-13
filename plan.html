@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BSG Entrance Exam 2026 - two-week study plan with the Google Meet link.">
+<title>Entrance Exam Study Plan</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#0A0D1E">
+<meta name="apple-mobile-web-app-title" content="Study Plan">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="icon" type="image/png" sizes="180x180" href="icon-180.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Two Weeks to the Entrance Exam">
+<meta property="og:description" content="The study plan: five evenings covering all twelve topics, then a week of mock papers.">
+<meta property="og:image" content="https://sunilrpappu-arch.github.io/bsg-entrance/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://sunilrpappu-arch.github.io/bsg-entrance/plan.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#0A0D1E; --ink-2:#121736; --ink-3:#1B2149;
+  --gold:#E3B85C; --gold-dim:#8A6F35; --gold-bright:#FBE6B0; --gold-ghost:rgba(227,184,92,.13);
+  --ivory:#F3EEE3; --ivory-2:#C9C3B4; --ivory-3:#8C8879;
+  --jade:#54C6A2; --lotus:#E58098;
+  --f-disp:"Bodoni Moda",'Iowan Old Style','Palatino Linotype',Georgia,serif;
+  --f-body:"Archivo",'Helvetica Neue',Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,'SF Mono',Menlo,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--ink); color:var(--ivory);
+  font-family:var(--f-body); font-size:16px; line-height:1.55;
+  background-image:
+    radial-gradient(120% 70% at 50% -15%, rgba(60,52,120,.5) 0%, rgba(10,13,30,0) 60%),
+    radial-gradient(90% 55% at 50% 115%, rgba(227,184,92,.09) 0%, rgba(10,13,30,0) 58%);
+  background-attachment:fixed;
+}
+h1,h2,h3,h4{font-family:var(--f-disp); font-weight:500; margin:0; text-wrap:balance}
+p{margin:0}
+button{font:inherit; color:inherit; background:none; border:none; cursor:pointer}
+:focus-visible{outline:2px solid var(--gold); outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+.wrap{max-width:880px; margin:0 auto; padding:0 20px}
+.eyebrow{font-family:var(--f-mono); font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--gold-dim)}
+
+/* masthead */
+.mast{padding:52px 0 8px}
+.mast h1{
+  font-size:clamp(30px,5.6vw,50px); line-height:1.05; font-weight:700; margin-top:14px;
+  background:linear-gradient(178deg,var(--gold-bright) 6%,var(--gold) 45%,#B08B3C 96%);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+.mast .lede{margin-top:16px; color:var(--ivory-2); font-size:15.5px; max-width:62ch; line-height:1.62}
+.facts{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px; background:rgba(227,184,92,.16); border:1px solid rgba(227,184,92,.16); margin:32px 0 8px; border-radius:3px; overflow:hidden}
+.fact{background:var(--ink-2); padding:17px 16px}
+.fact b{display:block; font-family:var(--f-mono); font-size:20px; color:var(--gold-bright); line-height:1.2; font-variant-numeric:tabular-nums}
+.fact span{font-family:var(--f-mono); font-size:10px; letter-spacing:.15em; text-transform:uppercase; color:var(--ivory-3); display:block; margin-top:4px}
+.join{display:flex; align-items:center; gap:16px; flex-wrap:wrap; margin:30px 0 0; padding:18px 22px; border:1px solid var(--gold-dim); border-radius:3px; background:var(--gold-ghost)}
+.join .lb{font-family:var(--f-mono); font-size:10px; letter-spacing:.19em; text-transform:uppercase; color:var(--gold-dim); display:block; margin-bottom:4px}
+.join a{display:inline-flex; align-items:center; min-height:44px; font-family:var(--f-mono); font-size:16px; color:var(--gold-bright); text-decoration:none; border-bottom:1px solid var(--gold-dim); word-break:break-all}
+.join a:hover{border-bottom-color:var(--gold-bright)}
+.join .sp{flex:1}
+.join button{min-height:44px; padding:10px 18px; border:1px solid var(--gold-dim); border-radius:2px; font-family:var(--f-mono); font-size:11px; letter-spacing:.12em; color:var(--gold); transition:all .18s; white-space:nowrap}
+.join button:hover{background:rgba(227,184,92,.18); border-color:var(--gold)}
+.join .note2{flex-basis:100%; font-size:12px; color:var(--ivory-3); line-height:1.5; margin:0}
+.creed{max-width:64ch; margin:30px 0 0; padding:20px 24px; border-left:2px solid var(--gold-dim); font-family:var(--f-disp); font-style:italic; font-size:17px; line-height:1.6}
+.creed span{display:block; margin-top:10px; font-family:var(--f-body); font-style:normal; font-size:13.5px; color:var(--ivory-3); line-height:1.55}
+
+/* controls */
+.bar{display:flex; gap:9px; align-items:center; flex-wrap:wrap; margin:44px 0 22px; position:sticky; top:0; z-index:20; padding:14px 0; background:linear-gradient(180deg,var(--ink) 76%,rgba(10,13,30,0)); backdrop-filter:blur(6px)}
+.chip{display:inline-flex; align-items:center; min-height:44px; padding:9px 18px; border-radius:999px; border:1px solid rgba(255,255,255,.16); font-family:var(--f-mono); font-size:11.5px; letter-spacing:.1em; color:var(--ivory-2); transition:all .18s}
+.chip:hover{border-color:var(--gold-dim); color:var(--ivory)}
+.chip[aria-pressed="true"]{border-color:var(--gold); color:var(--gold-bright); background:var(--gold-ghost)}
+.bar .sp{flex:1}
+.bar .hint{font-family:var(--f-mono); font-size:10.5px; letter-spacing:.1em; color:var(--ivory-3)}
+
+/* phase headers */
+.phase{display:flex; align-items:baseline; gap:14px; margin:40px 0 16px}
+.phase b{font-family:var(--f-mono); font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); font-weight:500; white-space:nowrap}
+.phase i{font-style:normal; font-size:12.5px; color:var(--ivory-3)}
+.phase hr{flex:1; border:none; border-top:1px solid rgba(227,184,92,.18); margin:0}
+
+/* session cards */
+.sess{border:1px solid rgba(227,184,92,.16); border-radius:3px; background:var(--ink-2); margin-bottom:10px; overflow:hidden; transition:border-color .2s}
+.sess:hover{border-color:rgba(227,184,92,.4)}
+.sess.opt{background:rgba(18,23,54,.5); border-style:dashed}
+.sess.exam{border-color:var(--gold); background:linear-gradient(165deg,rgba(227,184,92,.14),var(--ink-2))}
+.sess.done{opacity:.62}
+.shead{display:grid; grid-template-columns:auto 1fr auto; gap:16px; align-items:center; width:100%; text-align:left; padding:17px 20px}
+.tick{position:relative; z-index:2; width:34px; height:34px; flex:none; border:1px solid var(--gold-dim); border-radius:2px; display:grid; place-items:center; font-size:15px; color:var(--jade); background:rgba(0,0,0,.2); cursor:pointer; transition:all .18s}
+.tick::after{content:''; position:absolute; inset:-5px}
+.tick:hover{border-color:var(--gold)}
+.tick[aria-pressed="true"]{background:rgba(84,198,162,.16); border-color:var(--jade)}
+.when{display:flex; flex-direction:column; gap:2px; min-width:0}
+.when .d{font-family:var(--f-mono); font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:var(--gold-dim)}
+.when h3{font-size:19px; color:var(--gold-bright); line-height:1.25}
+.when .t{font-size:13px; color:var(--ivory-2); margin-top:4px; line-height:1.45}
+.rt{display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex:none}
+.qn{font-family:var(--f-mono); font-size:11.5px; color:var(--ivory-2); font-variant-numeric:tabular-nums}
+.caret{font-family:var(--f-mono); font-size:10px; letter-spacing:.12em; color:var(--gold-dim)}
+.sbody{padding:2px 20px 22px; border-top:1px solid rgba(227,184,92,.12); margin-top:2px}
+.sub{margin:20px 0 9px; font-family:var(--f-mono); font-size:10px; letter-spacing:.19em; text-transform:uppercase; color:var(--gold)}
+/* run-sheet innards */
+.run{display:grid; grid-template-columns:auto 1fr; gap:0 16px; font-size:13.5px}
+.run dt{font-family:var(--f-mono); font-size:11.5px; color:var(--gold-dim); padding:7px 0; white-space:nowrap; font-variant-numeric:tabular-nums; border-top:1px solid rgba(255,255,255,.07)}
+.run dd{margin:0; padding:7px 0; color:var(--ivory-2); line-height:1.5; border-top:1px solid rgba(255,255,255,.07)}
+.run dt:first-of-type,.run dd:first-of-type{border-top:none}
+.run dd b{color:var(--ivory); font-weight:600}
+.pts{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:7px; font-size:13.5px; color:var(--ivory-2); line-height:1.5}
+.pts li{padding-left:16px; position:relative}
+.pts li::before{content:"—"; position:absolute; left:0; color:var(--gold-dim)}
+.pts b{color:var(--ivory); font-weight:600}
+.pts .q{font-family:var(--f-disp); font-style:italic; color:var(--ivory)}
+.dates{display:grid; grid-template-columns:auto 1fr; gap:0 16px; font-size:13px}
+.dates dt{font-family:var(--f-mono); font-size:11.5px; color:var(--gold); padding:6px 0; white-space:nowrap; font-variant-numeric:tabular-nums}
+.dates dd{margin:0; padding:6px 0; color:var(--ivory-2); line-height:1.45}
+.hw{margin-top:20px; padding:15px 18px; border-radius:3px; background:rgba(84,198,162,.07); border-left:2px solid var(--jade)}
+.hw .l{font-family:var(--f-mono); font-size:10px; letter-spacing:.19em; text-transform:uppercase; color:var(--jade); margin-bottom:6px}
+.hw p{font-size:13.5px; color:var(--ivory-2); line-height:1.55}
+.lead{margin-top:14px; font-size:12.5px; color:var(--ivory-3); line-height:1.5; font-style:italic}
+.tags{display:flex; gap:7px; flex-wrap:wrap; margin-top:10px}
+.tag{font-family:var(--f-mono); font-size:10.5px; letter-spacing:.06em; padding:4px 10px; border-radius:999px; border:1px solid rgba(227,184,92,.28); color:var(--gold); background:var(--gold-ghost)}
+.note{margin:52px 0 0; padding:24px 26px; border:1px solid rgba(227,184,92,.16); border-radius:3px; background:var(--ink-2)}
+.note h4{font-size:19px; color:var(--gold-bright); margin-bottom:12px}
+.note p{font-size:13.5px; color:var(--ivory-2); line-height:1.6; margin-bottom:10px}
+.note p:last-child{margin-bottom:0}
+.foot{margin:44px 0 60px; padding-top:22px; border-top:1px solid rgba(227,184,92,.14); font-size:12.5px; color:var(--ivory-3); line-height:1.6; text-align:center}
+@media(max-width:620px){
+  .shead{grid-template-columns:auto 1fr; padding:15px 16px}
+  .rt{grid-column:2; align-items:flex-start; flex-direction:row; gap:12px; align-items:center; margin-top:4px}
+  .sbody{padding:2px 16px 20px}
+  .run{grid-template-columns:1fr; gap:0}
+  .run dt{padding-bottom:0; border-top:1px solid rgba(255,255,255,.07)}
+  .run dd{padding-top:2px; border-top:none}
+  .dates{grid-template-columns:1fr; gap:0}
+  .dates dd{padding-top:0; padding-bottom:9px}
+}
+@media print{
+  body{background:#fff; color:#111}
+  .bar,.tick,.caret{display:none!important}
+  .sess{break-inside:avoid; border-color:#ccc; background:#fff}
+  .mast h1{color:#111; -webkit-text-fill-color:#111}
+  .when h3,.note h4{color:#111}
+  .when .t,.pts,.run dd,.note p{color:#333}
+}
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <header class="mast">
+    <p class="eyebrow">BSG Entrance Exam &middot; Level 1 &middot; 2026</p>
+    <h1>Two Weeks to the<br>Entrance Exam</h1>
+    <p class="lede">A study plan for our four divisional members, Young Lions and friends &mdash; built around 30 minutes on Monday, Wednesday and Friday evenings, so nobody has to choose between work and study. Five evenings to cover all twelve topics. Then the last week is yours.</p>
+    <div class="facts" id="facts"></div>
+    <div class="join">
+      <div>
+        <span class="lb">Same link, every session</span>
+        <a href="https://meet.google.com/fmg-zxid-hip" target="_blank" rel="noopener">meet.google.com/fmg-zxid-hip</a>
+      </div>
+      <span class="sp"></span>
+      <button id="copy">Copy link</button>
+      <p class="note2">Google Meet, 9:30&ndash;10:00 pm on Mondays, Wednesdays and Fridays. The link does not change and does not expire &mdash; the same one works for all eight evenings. Access is set to open: nobody has to ask to be let in, and anyone can join before the host arrives.</p>
+    </div>
+    <blockquote class="creed">
+      &ldquo;Exert yourself in the two ways of practice and study.&rdquo;
+      <span>Nobody here is being measured. We sit this exam to deepen conviction in our own faith and practice &mdash; that is the whole of it. Several of us are attempting it again, and attempting again is itself the practice. Come as you are, on whichever evenings you can.</span>
+    </blockquote>
+  </header>
+
+  <div class="bar">
+    <button class="chip" data-view="brief" aria-pressed="true">Timetable</button>
+    <button class="chip" data-view="full" aria-pressed="false">Full run-sheets</button>
+    <span class="sp"></span>
+    <span class="hint" id="prog"></span>
+  </div>
+
+  <div id="plan"></div>
+
+  <section class="note">
+    <h4>How each 30 minutes runs</h4>
+    <p>The shape is the same every evening, so nobody has to wonder what is coming. Three daimoku to open. Five quick questions from last time in the quiz app &mdash; not a test, just a warm-up together. Sixteen minutes on tonight's topics. A live round of five questions on what we just covered. One minute to name the homework and close.</p>
+    <p><b>Rotate who leads.</b> Give each of the four divisional members one evening to present. Teaching a topic is the fastest way to own it &mdash; and it turns the group from a class into a study team.</p>
+    <p><b>If someone misses an evening</b>, nothing is lost. Every topic maps exactly onto a topic in the quiz app, so they can catch up in their own time and rejoin without falling behind.</p>
+  </section>
+
+  <p class="foot">
+    Sessions 9:30&ndash;10:00 pm on Mon, Wed and Fri &middot; Exam Sunday 27 September, 10&ndash;11 am<br>
+    Tick sessions off as you go &mdash; your ticks stay in this browser and are shared with nobody.
+  </p>
+</main>
+<script>
+const P=[
+{
+ phase:'Week one &amp; two — the taught sessions', phaseNote:'Five evenings, all twelve topics, weighted by how many questions each carries in the exam bank',
+ n:'01', date:'Wed 9 Sep', title:'The Law, and why we practice', topics:'Nam-myoho-renge-kyo · Attaining Buddhahood & Kosen-rufu', q:43,
+ tags:['Nam-myoho-renge-kyo — 11 Q','Attaining Buddhahood & Kosen-rufu — 32 Q'],
+ run:[['9:30','<b>Open.</b> Three daimoku. One line: we are not here to pass anything, we are here to deepen conviction.'],
+      ['9:33','<b>Where we stand.</b> Five questions cold from tonight\'s topic in the quiz app. Nobody scores anything — it just shows everyone the shape of the paper.'],
+      ['9:38','<b>Tonight\'s study</b> — the two topics below (16 min).'],
+      ['9:54','<b>Live round.</b> Five questions on what we just covered.'],
+      ['9:59','<b>Homework and close.</b>']],
+ pts:['<b>Nam</b> — from Sanskrit <i>namu</i>, to devote one\'s life. <b>Myoho</b> — the Mystic Law. <b>Renge</b> — lotus, a metaphor for the <b>simultaneity of cause and effect</b>. <b>Kyo</b> — sutra.',
+      'Nam-myoho-renge-kyo is the enlightened life state of <b>Buddhahood</b>. All people are inherently and originally Nam-myoho-renge-kyo itself.',
+      'The Daishonin depicted his own enlightened state as a <b>mandala</b> — the Gohonzon. <span class="q">"Never seek this Gohonzon outside yourself."</span>',
+      '<b>"Attain"</b> in attaining Buddhahood means <b>to open and reveal</b> — not to acquire something we lack. Hence <b>attaining Buddhahood in one\'s present form</b>.',
+      '<b>Earthly desires are enlightenment</b>; <b>the sufferings of birth and death are nirvana</b>. Both say the same thing: this life, as it is, is the site of transformation.',
+      '<b>Relative happiness</b> — material needs met, desires satisfied. <b>Absolute happiness</b> — being alive is itself a joy; not influenced by external conditions <i>and</i> persists eternally. Attaining Buddhahood means establishing this.',
+      '<b>Kosen-rufu</b> — "spread it abroad widely" in the last five-hundred-year period, which is the <b>Latter Day of the Law</b>. Entrusted in the Lotus Sutra to the <b>Bodhisattvas of the Earth</b>.',
+      '<span class="q">"If you are of the same mind as Nichiren, you must be a Bodhisattva of the Earth."</span> It is the <b>Soka Gakkai</b> that has made the predictions of Shakyamuni and the Daishonin a reality.',
+      '<b>On Establishing the Correct Teaching for the Peace of the Land</b> — "establishing the correct teachings" means making respect for the dignity of life the foundation of society; "peace of the land" means peace, prosperity and security for the people.'],
+ hw:'In the quiz app, attempt <b>Nam-Myoho-Renge-Kyo</b> (11 questions) and <b>Attaining Buddhahood in This Lifetime &amp; Kosen-rufu</b> (32) in Topic by Topic mode. Roughly 15 minutes.',
+ lead:'Suggested lead: divisional member 1.'
+},
+{
+ n:'02', date:'Fri 11 Sep', title:'How we see life, and how we judge a teaching', topics:'The Ten Worlds · The Three Proofs', q:50,
+ tags:['The Ten Worlds — 39 Q','The Three Proofs — 11 Q'],
+ run:[['9:30','<b>Open.</b> Three daimoku.'],
+      ['9:33','<b>Warm-up.</b> Five questions from Wednesday\'s topics.'],
+      ['9:38','<b>The Ten Worlds</b> (12 min) — this is the single biggest topic in the exam.'],
+      ['9:50','<b>The Three Proofs</b> (5 min) — small, self-contained, easy marks.'],
+      ['9:55','<b>Live round</b>, then homework and close.']],
+ pts:['Ten distinct states of life. The <b>six paths</b> — Hell, Hunger, Animality, Anger (asuras), Humanity, Rapture (heaven) — are easily swayed by external circumstances. The <b>four noble worlds</b> — Learning, Realization, Bodhisattva, Buddhahood — are established by effort.',
+      'Learn the Daishonin\'s one-word definitions, they come up repeatedly: <b>Rage</b> is hell · <b>Greed</b> is hungry spirits · <b>Foolishness</b> is animals · <b>Perversity</b> is asuras · <b>Calmness</b> is human beings · <b>Joy</b> is heaven.',
+      '<b>Perversity</b> has two aspects — to fawn and deceive, and <b>to distort reason</b>. The second one is the commonly missed answer.',
+      '<b>Learning</b> — partial awakening through hearing the Buddha\'s teachings. <b>Realization</b> — through one\'s own observation and effort. Together, "persons of the two vehicles"; their limitation is self-centredness.',
+      'The essence of the world of <b>Bodhisattva</b> is <b>compassion</b>. Buddhahood is inherent in us but hard to manifest — we tap it by chanting with faith in the Gohonzon.',
+      'The principle in the Lotus Sutra that lets anyone transform their state of life is the <b>mutual possession of the Ten Worlds</b>. Toda sensei: Buddhahood is a state in which being alive is itself a joy.',
+      '<b>Three Proofs</b> — Documentary, Theoretical, Actual. Documentary: doctrines accord with the scriptures; in the Soka Gakkai, the writings of Nichiren Daishonin. Theoretical: compatible with reason — <span class="q">"Buddhism is reason."</span> Actual: it produces results in life and daily affairs.',
+      'The Daishonin valued <b>actual proof</b> above all others. <span class="q">"Religion must always be for the people. People do not exist for the sake of religion."</span>'],
+ hw:'Attempt <b>The Ten Worlds</b> (39) and <b>The Three Proofs</b> (11). About 20 minutes. If time is short, do the Ten Worlds — it is the heaviest topic on the paper.',
+ lead:'Suggested lead: divisional member 2.'
+},
+{
+ n:'03', date:'Mon 14 Sep', title:'How we actually practice', topics:'Faith, Practice and Study · Gosho Passages · Faith Equals Daily Life', q:46,
+ tags:['Faith, Practice and Study — 20 Q','Gosho Passages — 11 Q','Faith Equals Daily Life — 15 Q'],
+ run:[['9:30','<b>Open.</b> Three daimoku.'],
+      ['9:33','<b>Warm-up.</b> Five questions on the Ten Worlds.'],
+      ['9:38','<b>Faith, practice and study, and the Gosho passages</b> that carry them (10 min).'],
+      ['9:48','<b>Faith equals daily life</b> (7 min).'],
+      ['9:55','<b>Live round</b>, then homework and close.']],
+ pts:['<span class="q">"Exert yourself in the two ways of practice and study. Without practice and study, there can be no Buddhism."</span> Both practice and study <b>arise from faith</b> — that is the answer to most questions in this topic.',
+      'Even Shariputra, foremost in wisdom, gained entrance <b>through faith alone</b>. Only through faith can we attain the same wisdom and life state as the Buddha.',
+      '<b>Practice for oneself</b> — gongyo and chanting Nam-myoho-renge-kyo. <b>Practice for others</b> — sharing the teaching, activities, encouragement.',
+      '<b>Primary practice</b>: chanting Nam-myoho-renge-kyo with faith in the Gohonzon. <b>Supporting practice</b>: reciting the "Expedient Means" and "Life Span" chapters. Gongyo is the two together.',
+      'Toda sensei: <span class="q">"Faith seeks understanding, and understanding deepens faith."</span> The purpose of study is to deepen faith.',
+      '<b>The Real Aspect of the Gohonzon</b> — <span class="q">"This Gohonzon also is found only in the two characters of faith."</span>',
+      '<b>The tarnished mirror</b> is fundamental darkness; the <b>clear mirror</b> is a life awakened to the truth of reality; <b>chanting Nam-myoho-renge-kyo</b> is what polishes it. <span class="q">"Teach others even a single sentence or phrase."</span>',
+      '<b>Faith equals daily life.</b> <span class="q">"The protection of the gods depends on the strength of one\'s faith."</span> Heavenly gods and benevolent deities are the protective functions, not beings to petition.',
+      '<b>Many in body, one in mind.</b> Many in body — our differences in nature, talent, circumstance. One in mind — the shared intention to achieve kosen-rufu. <span class="q">"If the spirit of many in body but one in mind prevails among the people, they will achieve all their goals."</span>',
+      'The purpose of the Buddha\'s appearance lies in <b>his behaviour as a human being</b>. The noblest behaviour is <b>respect for all people</b> — the practice of <b>Bodhisattva Never Disparaging</b>.'],
+ hw:'Attempt <b>Faith, Practice and Study</b> (20), <b>Gosho Passages</b> (11) and <b>Faith Equals Daily Life</b> (15). About 20 minutes across the week — split it over two evenings if easier.',
+ lead:'Suggested lead: divisional member 3.'
+},
+{
+ n:'04', date:'Wed 16 Sep', title:'Obstacles, karma, and the life that proved it', topics:'Faith for Overcoming Obstacles · Changing One\'s Karma · The Life of Nichiren Daishonin', q:51,
+ tags:['Faith for Overcoming Obstacles — 17 Q',"Changing One's Karma — 7 Q",'The Life of Nichiren Daishonin — 27 Q'],
+ run:[['9:30','<b>Open.</b> Three daimoku.'],
+      ['9:33','<b>Warm-up.</b> Five questions on faith, practice and study.'],
+      ['9:38','<b>Obstacles and karma</b> (7 min) — the doctrine.'],
+      ['9:45','<b>The Daishonin\'s life</b> (10 min) — read it as the doctrine actually happening to someone. Do not recite dates at people; walk the story and let the dates land.'],
+      ['9:55','<b>Live round</b>, then homework and close.']],
+ pts:['<b>Three obstacles</b>: earthly desires, karma, retribution. <b>Four devils</b>: the five components, earthly desires, death, and the devil king of the sixth heaven — who <b>makes free use of the fruits of others\' efforts for his own pleasure</b>.',
+      '<span class="q">"Something uncommon also occurs when an ordinary person attains Buddhahood — the three obstacles and four devils will invariably appear."</span> Obstacles are the proof that practice is working, not that it is failing. Say this plainly to anyone anxious about the exam.',
+      '<b>Three powerful enemies</b>: arrogant lay people, arrogant monks, arrogant false sages.',
+      '<b>Karma</b> is Sanskrit for <b>action</b>. <b>Lessening one\'s karmic retribution</b> — heavy karma met and burned off now. <span class="q">"Iron, when heated in the flames and pounded, becomes a fine sword."</span>',
+      '<span class="q">"What we had previously viewed as destiny, we come to see as mission."</span> Bodhisattvas <b>voluntarily assume appropriate karma</b> in order to demonstrate the power of the Law.'],
+ dates:[['16 Feb 1222','Born.'],
+        ['28 Apr 1253','Proclaims Nam-myoho-renge-kyo; adopts the name Nichiren — <b>Sun Lotus</b>.'],
+        ['16 Jul 1260','Submits <b>On Establishing the Correct Teaching for the Peace of the Land</b> to Hojo Tokiyori — the <b>first remonstration</b>. Predicts <b>internal strife and foreign invasion</b>.'],
+        ['1260','<b>Matsubagayatsu Persecution</b> — Nembutsu believers storm his dwelling.'],
+        ['12 May 1261','<b>Izu Exile.</b> Pardoned Feb 1263.'],
+        ['1264','<b>Komatsubara Persecution</b> — attacked by Tojo Kagenobu\'s men; forehead wounded, left hand broken.'],
+        ['10 &amp; 12 Sep 1271','<b>Second remonstration</b> before Hei no Saemon, then the <b>Tatsunokuchi Persecution</b> — the attempted beheading. In triumphing over it he reveals his true identity: <b>casting off the transient and revealing the true</b>.'],
+        ['10 Oct 1271','<b>Sado Exile</b> — the Sammi-do shrine at Tsukahara.'],
+        ['16&ndash;17 Jan 1272','<b>Tsukahara Debate.</b>'],
+        ['Feb 1272','<b>February Disturbance</b> — internal strife fulfilled. Writes <b>The Opening of the Eyes</b> (object of devotion in terms of the Person).'],
+        ['Apr 1273','Writes <b>The Object of Devotion for Observing the Mind</b> (in terms of the Law).'],
+        ['1274','Pardoned in February; <b>third remonstration</b> in April; the <b>first Mongol invasion</b> in October fulfils the second prediction. Retires to <b>Mount Minobu</b>.'],
+        ['Minobu','<b>The Selection of Time</b> and <b>On Repaying Debts of Gratitude</b> — the <b>Three Great Secret Laws</b>.'],
+        ['21 Sep 1279','<b>Atsuhara Persecution</b> — twenty farmers arrested.'],
+        ['1 Oct 1279','<b>Persecutions Befalling a Sage</b> — refers to the <b>purpose of his appearance in this world</b>.'],
+        ['13 Oct 1282','Passes away at Ikegami, aged 61. Only <b>Nikko Shonin</b> carries out his will.']],
+ hw:'Attempt <b>Faith for Overcoming Obstacles</b> (17), <b>Changing One\'s Karma</b> (7) and <b>The Life of Nichiren Daishonin</b> (27). The dates are the hard part — run that topic twice.',
+ lead:'Suggested lead: divisional member 4.'
+},
+{
+ n:'05', date:'Fri 18 Sep', title:'The modern movement', topics:'The History of the Soka Gakkai · Repudiating the Nikken Priesthood', q:50,
+ tags:['The History of the Soka Gakkai — 35 Q','Repudiating the Nikken Priesthood — 15 Q'],
+ run:[['9:30','<b>Open.</b> Three daimoku.'],
+      ['9:33','<b>Warm-up.</b> Five questions on the Daishonin\'s life.'],
+      ['9:38','<b>Three presidents</b> (11 min) — one continuous story of mentor and disciple.'],
+      ['9:49','<b>The Nikken sect and 28 November</b> (6 min).'],
+      ['9:55','<b>Live round.</b> Then: what the last week looks like, and no fear about it.']],
+ pts:['Makiguchi and Toda were both <b>educators</b>. Makiguchi developed the <b>theory of value</b>; <b>Soka</b> means <b>creation of value</b>, a word born from a dialogue between mentor and disciple.',
+      'Toda in prison awakened to <b>"Buddha is life itself"</b> and then, in Nov 1944, to <b>"I am a Bodhisattva of the Earth."</b> That awakening is the origin of the Soka Gakkai as it is today.',
+      '<b>Nikken sect</b> — the priesthood in its corrupt state under the <b>67th high priest</b>. Their scheme was <b>Operation C</b>, aimed at destroying the Soka Gakkai and taking control of its members; they held the <b>Gohonzon</b> hostage to intimidate believers.',
+      'From <b>The Twenty-six Admonitions of Nikko</b>: <span class="q">"Do not follow even the high priest if he goes against the Buddha\'s Law and propounds his own views."</span>',
+      '<span class="q">"To attain Buddhahood, we have to thoroughly conquer our own inner evil."</span> The excommunication notice of 28 Nov 1991 is remembered as the day of <b>spiritual independence</b>.'],
+ dates:[['18 Nov 1930','Volume one of <b>Soka Kyoikugaku Taikei</b> published — the founding day of the Soka Gakkai.'],
+        ['at 57','Makiguchi encounters the Buddhism of Nichiren Daishonin.'],
+        ['6 Jul 1943','Makiguchi, Toda and 21 leaders arrested — they had refused to accept the <b>Shinto talisman</b>.'],
+        ['18 Nov 1944','Makiguchi dies in the Tokyo Detention Centre, aged 73.'],
+        ['3 Jul 1945','Toda released; begins reconstructing the organization.'],
+        ['24 Aug 1947','Ikeda, 19, meets Toda, 47, and makes him his lifelong mentor. Later, <b>Toda University</b> — personal instruction, one to one.'],
+        ['3 May 1951','Toda inaugurated second president; vows <b>750,000 households</b>.'],
+        ['Apr 1952','Publishes the <b>Gosho Zenshu</b>, marking 700 years since the establishment of the teaching.'],
+        ['May 1956','The Osaka Campaign — <b>11,111 households</b> in a single month.'],
+        ['Jun&ndash;Jul 1957','<b>Yubari Coal Miners Union Incident</b>, then the <b>Osaka Incident</b> — Ikeda unjustly arrested on 3 July.'],
+        ['8 Sep 1957','Toda\'s <b>Declaration for the Abolition of Nuclear Weapons</b> — the keynote of the peace movement.'],
+        ['16 Mar 1958','The successors entrusted with the vow for kosen-rufu — <b>Kosen-rufu Day</b>.'],
+        ['2 Apr 1958','Toda passes away, aged 58.'],
+        ['3 May 1960','Ikeda inaugurated third president.'],
+        ['2 Oct 1960','First step on the journey towards <b>worldwide kosen-rufu</b>.'],
+        ['1965','Begins <b>The Human Revolution</b> under the pen name Ho Goku; later <b>The New Human Revolution</b>, 30 volumes.'],
+        ['26 Jan 1975','<b>SGI established on Guam</b>, 51 countries and territories. From 1983, a <b>Peace Proposal</b> every 26 January.'],
+        ['Nov 2013','The <b>Hall of the Great Vow for Kosen-rufu</b> completed in Shinanomachi.'],
+        ['28 Nov 1991','The excommunication notice — <b>spiritual independence</b>.']],
+ hw:'Attempt <b>The History of the Soka Gakkai</b> (35) and <b>Repudiating the Nikken Priesthood</b> (15). Then, over the weekend, sit <b>Mock Paper 4</b> in full — it is exactly these two topics plus the Gosho passages.',
+ lead:'Suggested lead: whoever wants the hardest one. This is the most date-heavy evening.'
+},
+{
+ phase:'The last week — self study and mock papers', phaseNote:'The slot stays open. Come if it helps, skip it if your own study is going better',
+ opt:true, n:'C1', date:'Mon 21 Sep', title:'Mock clinic — Papers 1 and 2', topics:'Attempt at home first, then we look at what slipped', q:140,
+ tags:['Optional','Mock Paper 1 — 70 Q','Mock Paper 2 — 70 Q'],
+ run:[['Before','Sit <b>Mock Paper 1</b> (70 Q) and <b>Mock Paper 2</b> (70 Q) at home in the app, exam mode, answers held until you submit. Note your two weakest topics from the breakdown screen.'],
+      ['9:30','Three daimoku, then round the room: one topic each person wants back.'],
+      ['9:35','We take the two topics that came up most and go through them together.'],
+      ['9:55','Anything anyone is anxious about. Say it out loud — it shrinks.']],
+ pts:['Papers 1 and 2 between them cover Nam-myoho-renge-kyo, Attaining Buddhahood and Kosen-rufu, the Ten Worlds, the Three Proofs, and Faith, Practice and Study.',
+      'The app sorts your topic breakdown weakest-first. That list, not a feeling, is what to revise.',
+      'A low score nine days out is <b>information</b>, not a verdict. Everyone here has time.'],
+ hw:'Re-attempt only the topics with the shortest bars, in Topic by Topic mode. Do not re-sit whole papers yet.'
+},
+{
+ opt:true, n:'C2', date:'Wed 23 Sep', title:'Mock clinic — Papers 3 and 4', topics:'The second half of the bank, same routine', q:100,
+ tags:['Optional','Mock Paper 3 — 39 Q','Mock Paper 4 — 61 Q'],
+ run:[['Before','Sit <b>Mock Paper 3</b> (39 Q) and <b>Mock Paper 4</b> (61 Q) at home.'],
+      ['9:30','Three daimoku, then the weakest topics round the room.'],
+      ['9:35','Dates drill — the Daishonin\'s life and the three presidents, called out rapid-fire. This is where marks are won.'],
+      ['9:55','Confirm the exam-day logistics: venue, time, what to bring.']],
+ pts:['Papers 3 and 4 cover obstacles, karma, faith equals daily life, the Daishonin\'s life, Soka Gakkai history, Nikken and the Gosho passages.',
+      'By now everyone has seen all 240 questions at least once. Nothing on the paper will be new.',
+      'If anyone has not managed the mocks, that is fine — sit with the group and use the evening.'],
+ hw:'One full generated mock in the app, 40 questions, 60 minutes, all topics. Treat it as a rehearsal for Sunday.'
+},
+{
+ opt:true, n:'C3', date:'Fri 25 Sep', title:'Full rehearsal, and a word before the exam', topics:'One 40-question paper on the clock, together', q:40,
+ tags:['Optional','Generated mock — 40 Q · 60 min'],
+ run:[['9:30','Three daimoku.'],
+      ['9:32','<b>Generate a Mock Exam</b> — 40 questions, 60 minutes, all topics. Start together. Anyone who prefers to do it at home, do it at home.'],
+      ['—','It runs past 10 pm; that is fine, or split it and finish at home. The point is one full run at exam pace.'],
+      ['After','Short encouragement. Then everyone goes to bed.']],
+ pts:['The real paper is <b>Sunday 27 September, 10&ndash;11 am — one hour</b>. Tonight is the last rehearsal at that pace.',
+      'Sit Saturday out. No new study the day before. Read the dates once in the morning and leave it alone.',
+      'Whatever the result on Sunday, the two weeks are already the benefit. Say this to the ones sitting it again.'],
+ hw:'Saturday: rest. Light read of the dates only. Sleep early.'
+},
+{
+ exam:true, n:'', date:'Sun 27 Sep', title:'BSG Entrance Exam', topics:'10:00 – 11:00 am · one hour', q:0,
+ tags:['Exam day'],
+ run:[['Morning','Gongyo. Eat something. Reach early — arriving unhurried is worth more than one last revision.'],
+      ['10:00','Read every question fully before answering. Rule out what is clearly wrong first.'],
+      ['Throughout','Attempt everything — nothing is deducted for a wrong answer. A blank is the only certain zero.'],
+      ['11:00','Done. Whatever happens, you spent two weeks deepening your practice. That part is already yours.']],
+ pts:[]
+}];
+
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const KEY='bsg-study-plan-v1';
+let ticks={}; try{ const r=localStorage.getItem(KEY); if(r) ticks=JSON.parse(r)||{}; }catch(e){}
+const save=()=>{ try{ localStorage.setItem(KEY,JSON.stringify(ticks)); }catch(e){} };
+
+/* facts */
+(function(){
+  const exam=new Date(2026,8,27,10,0,0);
+  const days=Math.max(0,Math.ceil((exam-new Date())/86400000));
+  $('#facts').innerHTML=[
+    [days, days===1?'day to the exam':'days to the exam'],
+    ['5','taught evenings'],['12','topics'],['240','questions in the bank'],['30','minutes each']
+  ].map(([b,s])=>`<div class="fact"><b>${b}</b><span>${s}</span></div>`).join('');
+})();
+
+/* plan */
+const host=$('#plan');
+P.forEach((s,i)=>{
+  if(s.phase){
+    const h=document.createElement('div'); h.className='phase';
+    h.innerHTML=`<b>${s.phase}</b><hr><i>${s.phaseNote}</i>`;
+    host.appendChild(h);
+  }
+  const key='s'+i;
+  const el=document.createElement('article');
+  el.className='sess'+(s.opt?' opt':'')+(s.exam?' exam':'')+(ticks[key]?' done':'');
+  const runHtml = s.run&&s.run.length ? `<div class="sub">Run of the evening</div><dl class="run">${s.run.map(([t,d])=>`<dt>${t}</dt><dd>${d}</dd>`).join('')}</dl>`:'';
+  const ptsHtml = s.pts&&s.pts.length ? `<div class="sub">What to land</div><ul class="pts">${s.pts.map(p=>`<li>${p}</li>`).join('')}</ul>`:'';
+  const dtHtml = s.dates ? `<div class="sub">Dates and events to know</div><dl class="dates">${s.dates.map(([t,d])=>`<dt>${t}</dt><dd>${d}</dd>`).join('')}</dl>`:'';
+  const hwHtml = s.hw ? `<div class="hw"><div class="l">Before the next session</div><p>${s.hw}</p></div>`:'';
+  const ldHtml = s.lead ? `<p class="lead">${s.lead}</p>`:'';
+  el.innerHTML=`
+    <div class="shead">
+      <button class="tick" aria-pressed="${!!ticks[key]}" aria-label="Mark ${s.date} done">${ticks[key]?'✓':''}</button>
+      <button class="when" style="text-align:left;cursor:pointer" aria-expanded="false">
+        <span class="d">${s.n?s.n+' · ':''}${s.date}${s.exam?'':' · 9:30–10:00 pm'}</span>
+        <h3>${s.title}</h3>
+        <span class="t">${s.topics}</span>
+        <span class="tags">${(s.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</span>
+      </button>
+      <span class="rt">${s.q?`<span class="qn">${s.q} Q</span>`:''}<span class="caret">DETAIL +</span></span>
+    </div>
+    <div class="sbody" hidden>${runHtml}${ptsHtml}${dtHtml}${hwHtml}${ldHtml}</div>`;
+  const body=el.querySelector('.sbody'), toggle=el.querySelector('.when'), caret=el.querySelector('.caret');
+  const setOpen=o=>{ body.hidden=!o; toggle.setAttribute('aria-expanded',o); caret.textContent=o?'DETAIL −':'DETAIL +'; };
+  toggle.onclick=()=>setOpen(body.hidden);
+  el.querySelector('.caret').onclick=e=>{e.stopPropagation(); setOpen(body.hidden);};
+  el._setOpen=setOpen;
+  const tick=el.querySelector('.tick');
+  tick.onclick=()=>{ ticks[key]=!ticks[key]; save(); tick.setAttribute('aria-pressed',!!ticks[key]); tick.textContent=ticks[key]?'✓':''; el.classList.toggle('done',!!ticks[key]); prog(); };
+  host.appendChild(el);
+});
+
+function prog(){
+  const total=P.filter(s=>!s.exam).length;
+  const done=P.filter((s,i)=>!s.exam&&ticks['s'+i]).length;
+  $('#prog').textContent=`${done} of ${total} sessions ticked off`;
+}
+prog();
+
+const cp=document.getElementById('copy');
+cp.onclick=async()=>{
+  const url='https://meet.google.com/fmg-zxid-hip';
+  try{ await navigator.clipboard.writeText(url); cp.textContent='Copied'; }
+  catch(e){ cp.textContent='Select the link above'; }
+  setTimeout(()=>{cp.textContent='Copy link';},2200);
+};
+
+$$('[data-view]').forEach(c=>c.onclick=()=>{
+  const cp=document.getElementById('copy');
+cp.onclick=async()=>{
+  const url='https://meet.google.com/fmg-zxid-hip';
+  try{ await navigator.clipboard.writeText(url); cp.textContent='Copied'; }
+  catch(e){ cp.textContent='Select the link above'; }
+  setTimeout(()=>{cp.textContent='Copy link';},2200);
+};
+
+$$('[data-view]').forEach(x=>x.setAttribute('aria-pressed', x===c?'true':'false'));
+  const full=c.dataset.view==='full';
+  $$('.sess').forEach(el=>el._setOpen(full));
+});
+</script>
+
+</body>
+</html>
